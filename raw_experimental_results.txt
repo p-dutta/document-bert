@@ -1,0 +1,46 @@
+
+
+Our model:
+
+The security situation of the Internet of Things (IoT) is serious:
+
+1 sentence: 1.11 s, 1.09 s [query shape:(209, 512)]
+4 sentences: 898  ms, 888ms [ query shape (53, 512)]
+
+
+Research Article Deep Learning Based Abstractive Text Summarization: Approaches, Datasets, Evaluation Measures, and Challenges Dima Suleiman and Arafat Awa
+
+1 sentence: 5.87 s, 5.85 [query shape:(924, 512)]
+4 sentences: 4.53 s, 4.56 s [ query shape (256, 512)]
+
+
+
+Implementing IoT itself has challenges.', 'That included figuring out how to secure connected devices and networks, and the data they handle
+
+
+1 sentence: 970 ms, 953 ms [query shape:(97, 512))]
+4 sentences: 815 ms, 873 ms [ query shape (25, 512)]
+
+
+
+BERT
+On GPU 0: Tesla K80
+
+The security situation of the Internet of Things (IoT) is serious:
+
+1 sentence: 3min 15s, 3 min 17s [query shape:(209, 300, 768)]
+4 sentences: 50.3, 50.2 seconds [ query shape (53, 300, 768)]
+
+
+Research Article Deep Learning Based Abstractive Text Summarization: Approaches, Datasets, Evaluation Measures, and Challenges Dima Suleiman and Arafat Awa
+
+1 sentence: 8 mints 53 seconds [query shape:(924, 300, 768)] ## with max sequence length 200
+4 sentences: 3 mints 54 seconds [ query shape (256, 300, 768)]
+
+
+
+Implementing IoT itself has challenges.', 'That included figuring out how to secure connected devices and networks, and the data they handle
+
+
+1 sentence: 1 mint 29 seconds [query shape:(97, 300, 768))]
+4 sentences: 23.2 seconds [ query shape (25, 300, 768)]
